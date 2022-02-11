@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #F5F7FC 0% 0% no-repeat padding-box;
+}
+.hero {
+  background: transparent url("./assets/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.nav {
+  width: 90%;
+  height: 70px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+.btn {
+  width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff4591;
+  color: white;
+  border-radius: 50px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+.hero-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  align-items: left;
+  margin-top: 100px;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.hero-text {
+  width: 50%;
+}
+.hero-content p {
+  font-size: 18px;
+  color: #fff;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.tab{
+    top: 532px;
+    left: -1010px;
+    width:1369px;
+    background-image: url("./assets/tab.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.map{
+    background: url('./assets/map.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 389px;
+        
+    
+}
+.mapped{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
+}
+.content{
+    padding: 97px;
+    text-align: center;
+   
+}
+
+.companies{ 
+    height: 56px; 
+    background: url('./assets/comp.png') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.compText1{
+    text-transform: uppercase;
+    color: white;
+    font: normal normal bold 33px Montserrat;
+    
+   
+}
+.compText2{
+    color: white;
+    font: normal normal 18px Montserrat;
+}
+
+
+.whyReact{
+    background: #F5F7FC 0% 0% no-repeat padding-box;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(200px,1fr));
+    width: 1450px;
+    padding: 81px;
+
+    
+    }
+.textHead{
+    letter-spacing: 0.84px;
+    color: rgb(16, 24, 25);
+    font: bold 42px / 56px "Gilroy ☞";
+    }
+.text{
+    font: normal normal normal 16px/28px Montserrat;
+    letter-spacing: 0.32px;
+    color: hsl(0, 4%, 14%);
+    }
+.video{
+    background: url(./assets/video\ .png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 596px;
+    height: 400px;
+    }
+
+
+.ready{
+    text-align: center;
+    font: normal normal bold 32px/55px Montserrat;
+    letter-spacing: 0.64px;
+    color: #FFFFFF;
+      }
+.excited{
+    text-align: center;
+    font: normal normal medium 20px/30px Montserrat;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+      }
+.getStarted{
+    background: url(./assets/getStarted.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 245px;
+    height: 91px;
+        
+    }
+      
+.people{
+    background: url(./assets/people.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 91px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+      }
+.readyForCronJ{
+        padding: 47px;
+        
+    }
+
+.hire{
+      text-align: left;
+      font: normal normal bold 32px/55px Montserrat;
+      letter-spacing: 0.64px;
+      color: #FFFFFF;
+        }
+.staff{
+      text-align: left;
+      font: normal normal medium 20px/30px Montserrat;
+      letter-spacing: 0.4px;
+      color: #FFFFFF;
+        }
+.project{
+      background: url(./assets/call.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 245px;
+      height: 94px;
+      margin-right: 1005px ;
+          
+      }
+        
+.pink{
+      background: url(./assets/pink.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 91px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+        }
+.hands{
+          padding: 47px;
+          
+          
+      }
+
+.wrap{
+  width: 661px;
+  margin-right: 587px ;
+}
+    
+.container1{
+  margin: 100px;
+  display: flex;
+  align-items: center;
+  justify-items:center ;
+  flex-direction: column;
+}
+
+.head1{
+  text-align: center;
+  font: normal normal bold 42px/55px Gilroy ☞;
+letter-spacing: 0.84px;
+color: #101819;
+}
+  .para1{
+  text-align: center;
+font: normal normal normal 16px/27px Montserrat;
+letter-spacing: 0.32px;
+color: #101819;
+margin: 30px;
+}
+
+.container2{
+  margin: 100px;
+  display: flex;
+  align-items: center;
+  justify-items:center ;
+  flex-direction: column;
+}
+
+.head2{
+  text-align: center;
+  font: normal normal bold 42px/55px Gilroy ☞;
+letter-spacing: 0.84px;
+color: #101819;
+}
+  .para2{
+  text-align: center;
+font: normal normal normal 16px/27px Montserrat;
+letter-spacing: 0.32px;
+color: #101819;
+margin: 30px;
+}
+
+
+.speak{
+  text-align: left;
+  font: normal normal bold 32px/55px Montserrat;
+  letter-spacing: 0.64px;
+  color: #FFFFFF;
+    }
+.write{
+  text-align: left;
+  font: normal normal medium 20px/30px Montserrat;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+    }
+.startnow{
+  background: url(./assets/contact.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 245px;
+  height: 94px;
+  margin-right: 1005px ;
+      
+  }
+    
+.pen{
+  background: url(./assets/pen.png);
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  
+    }
+.nib{
+      padding: 47px;
+      
+      
+  }
+
+  .consult{
+    text-align: left;
+    font: normal normal bold 32px/55px Montserrat;
+    letter-spacing: 0.64px;
+    color: #FFFFFF;
+      }
+  .ring{
+    text-align: left;
+    font: normal normal medium 20px/30px Montserrat;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+      }
+  .contact{
+    background: url(./assets/contact.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 245px;
+    height: 94px;
+    margin-right: 1005px ;
+        
+    }
+      
+  .dollar{
+    background: url(./assets/dollar.png);
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 91px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 100px;
+      }
+  .pinky{
+        padding: 47px;
+        
+        
+        
+    }
+    
+   
+    
