@@ -77,14 +77,14 @@ body {
   margin-bottom: 20px;
 }
 .tab{
-    top: 532px;
-    left: -1010px;
-    width:1369px;
+    
     background-image: url("./assets/tab.png");
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 111vh;
+    margin: -56px;
 }
+
 
 .map{
     background: url('./assets/map.jpg');
@@ -93,6 +93,7 @@ body {
     background-repeat: no-repeat;
     width: 1440px;
     height: 389px;
+    margin-top: 355px;
         
     
 }
@@ -498,21 +499,176 @@ height: 148px;
     
         }
 
-        .atom1{background-image: url(./assets/micro.png);width: 78px;
+        .atom1{background-image: url(./assets/micro.png);
+          width: 78px;
           height: 78px;
           }
           
         .redux1{
-          background-image: url(./assets/micro\ \(3\).png);width: 70px;
+          background-image: url(./assets/micro\ \(3\).png);
+          width: 70px;
           height: 66px;
         }
-        .es1{background-image: url(./assets/micro\ \(2\).png);width: 80px;
+        .es1{background-image: url(./assets/micro\ \(2\).png);
+          width: 80px;
           height: 70px;
         }
         .react1{
-          background-image: url(./assets/micro\ \(4\).png);width: 78px;
+          background-image: url(./assets/micro\ \(4\).png);
+          width: 78px;
           height: 72px;
         }
-        .micro1{background-image: url(./assets/micro\ \(1\).png);width: 127px;
+        .micro1{background-image: url(./assets/micro\ \(1\).png);
+          width: 127px;
           height: 56px;
+        }
+
+        .grid0{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+        
+           
+          /* justify-self: center;
+          align-self: center; */ 
+          margin: 42px;
+          
+         
+          
+        }
+        .head4
+          {font: normal normal bold 24px/55px Montserrat;
+            letter-spacing: 0.48px;
+            color: #101819;
+}
+  .para4{text-align: left;
+            font: normal normal normal 17px/32px Montserrat;
+            letter-spacing: 0.34px;
+            color: #101819;
+            width: 319px;
+height: 148px;
+    
+        }
+
+        .atom2{background-image: url(./assets/technology\ \(2\).jpg);
+          width: 72px;
+          height: 71px;
+          }
+          
+        .redux2{
+          background-image: url(./assets/reading-book\ \(1\).jpg);
+          width: 59px;
+          height: 66px;
+        }
+        
+        .react2{
+          background-image: url(./assets/coding\ \(2\).png);
+          width: 71px;
+          height: 64px;
+        }
+        .micro2{background-image: url(./assets/User\ Experience.jpg);
+          width: 49px;
+          height: 68px;
+        }
+        /* .image{
+          width: 917px;
+          height: 667px;
+          background: url(./assets/lappy\ 2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        } */
+        .grid2{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          
+           
+          /* justify-self: center;
+          align-self: center; */ 
+          margin: 42px;
+
+          
+         
+          
+        }
+        .head5
+          {font: normal normal bold 24px/55px Montserrat;
+            letter-spacing: 0.48px;
+            color: #101819;
+}
+  .para5{text-align: left;
+            font: normal normal normal 17px/32px Montserrat;
+            letter-spacing: 0.34px;
+            color: #101819;
+            width: 319px;
+height: 148px;
+    
+        }
+
+        
+        
+        .head_1{
+          text-align: center;
+          font: normal normal bold 42px/55px Gilroy ☞;
+        letter-spacing: 0.84px;
+        color: #101819;
+        
+        }
+
+        .grid4{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          
+           
+          /* justify-self: center;
+          align-self: center; */ 
+          margin: 42px; 
+        }
+        .atom3{background-image: url(./assets/app\ \(2\).png);
+          width: 92px;
+          height: 69px;
+          }
+          
+        .redux3{
+          background-image: url(./assets/dynamic.png);
+          width: 85px;
+          height: 66px;
+        }
+        
+        .react3{
+          background-image: url(./assets/restaurant.png);
+          width: 80px;
+          height: 88px;
+        }
+        
+        .grid5{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          
+           
+          /* justify-self: center;
+          align-self: center; */ 
+          margin: 42px; 
+        }
+        .atom4{background-image: url(./assets/atom.png);
+          width: 64px;
+          height: 71px;
+          }
+          
+        .redux4{
+          background-image: url(./assets/website\ \(3\).png);
+          width: 71px;
+          height: 70px;
+        }
+        
+        .react4{
+          background-image: url(./assets/passion.png);
+          width: 71px;
+          height: 71px;
+        }
+        
+        .white{
+          background-color: white;
+          height: 400px;
+          padding: 25px;
+          margin: 36px;
         }
